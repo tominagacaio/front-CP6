@@ -9,7 +9,7 @@
 }  
 
 .title-pcl{
-    color: black;
+    color: #d3d3d3;
     margin: 0 0 20px 20px;
 
 }
@@ -27,25 +27,44 @@
 
 .message--sent {
     text-align: left;
-    color: black;
+    color: #d3d3d3;
 }
 
 .message--sent::before {
     content: "Usuário";
     font-size: 12px;
-    color: black;
+    color: #d3d3d3;
 }
 
+.message___text{
+    width: 36%;
+    border: 0.5px solid #273e33;
+    border-radius: 100px;
+    padding: 15px;
+    background-color: #273e33;
+}
+
+/* .message__text{
+    width: 53%;
+    border: 0.5px solid #273e33;
+    border-radius: 100px;
+    padding: 15px;
+    background-color: #273e33;
+} */
+
 .message--received {
-    text-align: left;
+    text-align: right;
     margin: 20px 0 20px 0;
-    color: black;
+    color: #d3d3d3;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
 .message--received::before {
     content: "Assistente";
     font-size: 12px;
-    color: black;
+    color: #d3d3d3;
 }
 
 .container_sd{
@@ -68,4 +87,6 @@ form{
     font-size: 20px;
     margin-left: 5px;
     display: flex;
+    color: #d3d3d3;
+
 }
